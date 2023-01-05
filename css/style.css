@@ -79,7 +79,8 @@ i{
 
 @media screen and (max-width: 576px) {
     .container {
-        margin: 0 2rem;
+        width: 90%;
+        margin-left: 2.4rem;
     }
     .width {
         margin-left: 4.5rem !important;
