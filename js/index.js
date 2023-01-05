@@ -298,8 +298,8 @@ function displayMealDetails(meal) {
     <div class="col-md-4">
     <img class="w-100 rounded-3 mb-3" src="${meal.strMealThumb}">
     <h2 class="text-center">${meal.strMeal}</h2>
-</div>
-<div class="col-md-8">
+    </div>
+    <div class="col-md-8">
     <h2>Instructions</h2>
     <p>${meal.strInstructions}</p>
     <h4 class="mb-3">Area : <span class="text-muted"> ${meal.strArea
@@ -318,7 +318,8 @@ function displayMealDetails(meal) {
         }" target="_blank" class="btn btn-success mx-2">Source</a>
     <a href="${meal.strYoutube
         }" target="_blank" class="btn btn-danger mx-1">Youtube</a>
-</div>
+        <div class="mt-4 ms-2 "><a class="btn btn-info" href="">Back <i class="fa-solid fa-arrow-left"></i></a></div>
+    </div>
     `;
     displayData.innerHTML = cartoona;
 }
